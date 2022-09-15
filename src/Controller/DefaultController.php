@@ -6,9 +6,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController
 {
-    public function index(int $max): Response
+    public function index(): Response
     {
-        $number = random_int(0, $max);
+        $number = 12;
 
         return new Response(
             '<html><body>Lucky number: '.$number.'</body></html>'
