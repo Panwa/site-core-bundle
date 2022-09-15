@@ -7,10 +7,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-
-  },
-  "require-dev": {
-
+    "symfony/http-foundation": "^6.1"
   },
   "autoload": {
     "psr-4": {
