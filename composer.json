@@ -1,0 +1,25 @@
+{
+  "name": "panwa/site-core-bundle",
+  "type": "library",
+  "description": "",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Panwa\\SiteCoreBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Panwa\\SiteCoreBundle\\Tests\\": "tests/"
+    }
+  }
+}
