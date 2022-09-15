@@ -1,3 +1,5 @@
+<?php
+
 namespace Panwa\SiteCoreBundle;
 
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
